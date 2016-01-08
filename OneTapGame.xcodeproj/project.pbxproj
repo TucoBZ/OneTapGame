@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		654A17E41C3FE956009D2658 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654A17E31C3FE956009D2658 /* AppDelegate.swift */; };
+		654A17E61C3FE956009D2658 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654A17E51C3FE956009D2658 /* ViewController.swift */; };
+		654A17E91C3FE956009D2658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654A17E71C3FE956009D2658 /* Main.storyboard */; };
+		654A17EB1C3FE956009D2658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654A17EA1C3FE956009D2658 /* Assets.xcassets */; };
+		654A17EE1C3FE956009D2658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654A17EC1C3FE956009D2658 /* LaunchScreen.storyboard */; };
+		654A17F91C3FE956009D2658 /* OneTapGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654A17F81C3FE956009D2658 /* OneTapGameTests.swift */; };
+		654A18041C3FE956009D2658 /* OneTapGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654A18031C3FE956009D2658 /* OneTapGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		654A17F51C3FE956009D2658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654A17D81C3FE956009D2658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 654A17DF1C3FE956009D2658;
+			remoteInfo = OneTapGame;
+		};
+		654A18001C3FE956009D2658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654A17D81C3FE956009D2658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 654A17DF1C3FE956009D2658;
+			remoteInfo = OneTapGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		654A17E01C3FE956009D2658 /* OneTapGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneTapGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		654A17E31C3FE956009D2658 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		654A17E51C3FE956009D2658 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		654A17E81C3FE956009D2658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		654A17EA1C3FE956009D2658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		654A17ED1C3FE956009D2658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		654A17EF1C3FE956009D2658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654A17F41C3FE956009D2658 /* OneTapGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneTapGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		654A17F81C3FE956009D2658 /* OneTapGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTapGameTests.swift; sourceTree = "<group>"; };
+		654A17FA1C3FE956009D2658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654A17FF1C3FE956009D2658 /* OneTapGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneTapGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		654A18031C3FE956009D2658 /* OneTapGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTapGameUITests.swift; sourceTree = "<group>"; };
+		654A18051C3FE956009D2658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		654A17DD1C3FE956009D2658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654A17F11C3FE956009D2658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654A17FC1C3FE956009D2658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		654A17D71C3FE956009D2658 = {
+			isa = PBXGroup;
+			children = (
+				654A17E21C3FE956009D2658 /* OneTapGame */,
+				654A17F71C3FE956009D2658 /* OneTapGameTests */,
+				654A18021C3FE956009D2658 /* OneTapGameUITests */,
+				654A17E11C3FE956009D2658 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		654A17E11C3FE956009D2658 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				654A17E01C3FE956009D2658 /* OneTapGame.app */,
+				654A17F41C3FE956009D2658 /* OneTapGameTests.xctest */,
+				654A17FF1C3FE956009D2658 /* OneTapGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		654A17E21C3FE956009D2658 /* OneTapGame */ = {
+			isa = PBXGroup;
+			children = (
+				654A17E31C3FE956009D2658 /* AppDelegate.swift */,
+				654A17E51C3FE956009D2658 /* ViewController.swift */,
+				654A17E71C3FE956009D2658 /* Main.storyboard */,
+				654A17EA1C3FE956009D2658 /* Assets.xcassets */,
+				654A17EC1C3FE956009D2658 /* LaunchScreen.storyboard */,
+				654A17EF1C3FE956009D2658 /* Info.plist */,
+			);
+			path = OneTapGame;
+			sourceTree = "<group>";
+		};
+		654A17F71C3FE956009D2658 /* OneTapGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				654A17F81C3FE956009D2658 /* OneTapGameTests.swift */,
+				654A17FA1C3FE956009D2658 /* Info.plist */,
+			);
+			path = OneTapGameTests;
+			sourceTree = "<group>";
+		};
+		654A18021C3FE956009D2658 /* OneTapGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				654A18031C3FE956009D2658 /* OneTapGameUITests.swift */,
+				654A18051C3FE956009D2658 /* Info.plist */,
+			);
+			path = OneTapGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		654A17DF1C3FE956009D2658 /* OneTapGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654A18081C3FE956009D2658 /* Build configuration list for PBXNativeTarget "OneTapGame" */;
+			buildPhases = (
+				654A17DC1C3FE956009D2658 /* Sources */,
+				654A17DD1C3FE956009D2658 /* Frameworks */,
+				654A17DE1C3FE956009D2658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneTapGame;
+			productName = OneTapGame;
+			productReference = 654A17E01C3FE956009D2658 /* OneTapGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		654A17F31C3FE956009D2658 /* OneTapGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654A180B1C3FE956009D2658 /* Build configuration list for PBXNativeTarget "OneTapGameTests" */;
+			buildPhases = (
+				654A17F01C3FE956009D2658 /* Sources */,
+				654A17F11C3FE956009D2658 /* Frameworks */,
+				654A17F21C3FE956009D2658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				654A17F61C3FE956009D2658 /* PBXTargetDependency */,
+			);
+			name = OneTapGameTests;
+			productName = OneTapGameTests;
+			productReference = 654A17F41C3FE956009D2658 /* OneTapGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		654A17FE1C3FE956009D2658 /* OneTapGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654A180E1C3FE956009D2658 /* Build configuration list for PBXNativeTarget "OneTapGameUITests" */;
+			buildPhases = (
+				654A17FB1C3FE956009D2658 /* Sources */,
+				654A17FC1C3FE956009D2658 /* Frameworks */,
+				654A17FD1C3FE956009D2658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				654A18011C3FE956009D2658 /* PBXTargetDependency */,
+			);
+			name = OneTapGameUITests;
+			productName = OneTapGameUITests;
+			productReference = 654A17FF1C3FE956009D2658 /* OneTapGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		654A17D81C3FE956009D2658 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = TulioBZ;
+				TargetAttributes = {
+					654A17DF1C3FE956009D2658 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					654A17F31C3FE956009D2658 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 654A17DF1C3FE956009D2658;
+					};
+					654A17FE1C3FE956009D2658 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 654A17DF1C3FE956009D2658;
+					};
+				};
+			};
+			buildConfigurationList = 654A17DB1C3FE956009D2658 /* Build configuration list for PBXProject "OneTapGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 654A17D71C3FE956009D2658;
+			productRefGroup = 654A17E11C3FE956009D2658 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				654A17DF1C3FE956009D2658 /* OneTapGame */,
+				654A17F31C3FE956009D2658 /* OneTapGameTests */,
+				654A17FE1C3FE956009D2658 /* OneTapGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		654A17DE1C3FE956009D2658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654A17EE1C3FE956009D2658 /* LaunchScreen.storyboard in Resources */,
+				654A17EB1C3FE956009D2658 /* Assets.xcassets in Resources */,
+				654A17E91C3FE956009D2658 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654A17F21C3FE956009D2658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654A17FD1C3FE956009D2658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		654A17DC1C3FE956009D2658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654A17E61C3FE956009D2658 /* ViewController.swift in Sources */,
+				654A17E41C3FE956009D2658 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654A17F01C3FE956009D2658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654A17F91C3FE956009D2658 /* OneTapGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654A17FB1C3FE956009D2658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654A18041C3FE956009D2658 /* OneTapGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		654A17F61C3FE956009D2658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 654A17DF1C3FE956009D2658 /* OneTapGame */;
+			targetProxy = 654A17F51C3FE956009D2658 /* PBXContainerItemProxy */;
+		};
+		654A18011C3FE956009D2658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 654A17DF1C3FE956009D2658 /* OneTapGame */;
+			targetProxy = 654A18001C3FE956009D2658 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		654A17E71C3FE956009D2658 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				654A17E81C3FE956009D2658 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		654A17EC1C3FE956009D2658 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				654A17ED1C3FE956009D2658 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		654A18061C3FE956009D2658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		654A18071C3FE956009D2658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		654A18091C3FE956009D2658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OneTapGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TulioBZ.OneTapGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		654A180A1C3FE956009D2658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OneTapGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TulioBZ.OneTapGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		654A180C1C3FE956009D2658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OneTapGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TulioBZ.OneTapGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneTapGame.app/OneTapGame";
+			};
+			name = Debug;
+		};
+		654A180D1C3FE956009D2658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OneTapGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TulioBZ.OneTapGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneTapGame.app/OneTapGame";
+			};
+			name = Release;
+		};
+		654A180F1C3FE956009D2658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OneTapGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TulioBZ.OneTapGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OneTapGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		654A18101C3FE956009D2658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OneTapGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TulioBZ.OneTapGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OneTapGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		654A17DB1C3FE956009D2658 /* Build configuration list for PBXProject "OneTapGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654A18061C3FE956009D2658 /* Debug */,
+				654A18071C3FE956009D2658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		654A18081C3FE956009D2658 /* Build configuration list for PBXNativeTarget "OneTapGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654A18091C3FE956009D2658 /* Debug */,
+				654A180A1C3FE956009D2658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		654A180B1C3FE956009D2658 /* Build configuration list for PBXNativeTarget "OneTapGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654A180C1C3FE956009D2658 /* Debug */,
+				654A180D1C3FE956009D2658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		654A180E1C3FE956009D2658 /* Build configuration list for PBXNativeTarget "OneTapGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654A180F1C3FE956009D2658 /* Debug */,
+				654A18101C3FE956009D2658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 654A17D81C3FE956009D2658 /* Project object */;
+}
