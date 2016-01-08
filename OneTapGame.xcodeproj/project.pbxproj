@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		654A17E41C3FE956009D2658 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654A17E31C3FE956009D2658 /* AppDelegate.swift */; };
-		654A17E61C3FE956009D2658 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654A17E51C3FE956009D2658 /* ViewController.swift */; };
 		654A17E91C3FE956009D2658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654A17E71C3FE956009D2658 /* Main.storyboard */; };
-		654A17EB1C3FE956009D2658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654A17EA1C3FE956009D2658 /* Assets.xcassets */; };
 		654A17EE1C3FE956009D2658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654A17EC1C3FE956009D2658 /* LaunchScreen.storyboard */; };
 		654A17F91C3FE956009D2658 /* OneTapGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654A17F81C3FE956009D2658 /* OneTapGameTests.swift */; };
 		654A18041C3FE956009D2658 /* OneTapGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654A18031C3FE956009D2658 /* OneTapGameUITests.swift */; };
+		654A18121C3FEB5B009D2658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654A18111C3FEB5B009D2658 /* Assets.xcassets */; };
+		654A18141C3FEC62009D2658 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654A18131C3FEC62009D2658 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +36,7 @@
 /* Begin PBXFileReference section */
 		654A17E01C3FE956009D2658 /* OneTapGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneTapGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		654A17E31C3FE956009D2658 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		654A17E51C3FE956009D2658 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		654A17E81C3FE956009D2658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		654A17EA1C3FE956009D2658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		654A17ED1C3FE956009D2658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		654A17EF1C3FE956009D2658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		654A17F41C3FE956009D2658 /* OneTapGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneTapGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +45,8 @@
 		654A17FF1C3FE956009D2658 /* OneTapGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneTapGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		654A18031C3FE956009D2658 /* OneTapGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTapGameUITests.swift; sourceTree = "<group>"; };
 		654A18051C3FE956009D2658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654A18111C3FEB5B009D2658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		654A18131C3FEC62009D2658 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				654A17E31C3FE956009D2658 /* AppDelegate.swift */,
-				654A17E51C3FE956009D2658 /* ViewController.swift */,
+				654A18131C3FEC62009D2658 /* GameViewController.swift */,
 				654A17E71C3FE956009D2658 /* Main.storyboard */,
-				654A17EA1C3FE956009D2658 /* Assets.xcassets */,
 				654A17EC1C3FE956009D2658 /* LaunchScreen.storyboard */,
 				654A17EF1C3FE956009D2658 /* Info.plist */,
+				654A18111C3FEB5B009D2658 /* Assets.xcassets */,
 			);
 			path = OneTapGame;
 			sourceTree = "<group>";
@@ -230,7 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				654A17EE1C3FE956009D2658 /* LaunchScreen.storyboard in Resources */,
-				654A17EB1C3FE956009D2658 /* Assets.xcassets in Resources */,
+				654A18121C3FEB5B009D2658 /* Assets.xcassets in Resources */,
 				654A17E91C3FE956009D2658 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				654A17E61C3FE956009D2658 /* ViewController.swift in Sources */,
+				654A18141C3FEC62009D2658 /* GameViewController.swift in Sources */,
 				654A17E41C3FE956009D2658 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +484,7 @@
 				654A180A1C3FE956009D2658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		654A180B1C3FE956009D2658 /* Build configuration list for PBXNativeTarget "OneTapGameTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				654A180D1C3FE956009D2658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		654A180E1C3FE956009D2658 /* Build configuration list for PBXNativeTarget "OneTapGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +502,7 @@
 				654A18101C3FE956009D2658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

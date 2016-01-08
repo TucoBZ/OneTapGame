@@ -1,25 +1,118 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="SNz-xP-RC6">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--game-->
+        <scene sceneID="QEc-AB-VBF">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="game" id="SNz-xP-RC6" customClass="GameViewController" customModule="OneTapGame" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="AIp-mC-gRP"/>
+                        <viewControllerLayoutGuide type="bottom" id="jT1-aD-PmE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="DQX-Fb-gqn">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Points 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cMY-cI-dbf">
+                                <rect key="frame" x="269" y="28" width="62" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sFq-AW-a3j">
+                                <rect key="frame" x="180" y="436" width="240" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0b-2n-IZm">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="P0b-2n-IZm" secondAttribute="height" multiplier="1:1" id="gNX-aT-DCE"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="apple"/>
+                                        <connections>
+                                            <action selector="checkPress:" destination="SNz-xP-RC6" eventType="touchUpInside" id="lQc-yF-WON"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HP6-20-4z2">
+                                        <rect key="frame" x="90" y="0.0" width="60" height="60"/>
+                                        <state key="normal" backgroundImage="bking"/>
+                                        <connections>
+                                            <action selector="checkPress:" destination="SNz-xP-RC6" eventType="touchUpInside" id="sIB-di-LYG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Jg-9C-kPu">
+                                        <rect key="frame" x="180" y="0.0" width="60" height="60"/>
+                                        <state key="normal" backgroundImage="firefox"/>
+                                        <connections>
+                                            <action selector="checkPress:" destination="SNz-xP-RC6" eventType="touchUpInside" id="rcg-r4-nk6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="9Jg-9C-kPu" firstAttribute="height" secondItem="P0b-2n-IZm" secondAttribute="height" id="14A-tk-s3G"/>
+                                    <constraint firstItem="HP6-20-4z2" firstAttribute="leading" secondItem="P0b-2n-IZm" secondAttribute="trailing" constant="30" id="1kb-x6-WOy"/>
+                                    <constraint firstItem="9Jg-9C-kPu" firstAttribute="centerY" secondItem="P0b-2n-IZm" secondAttribute="centerY" id="NvN-rK-MkS"/>
+                                    <constraint firstItem="P0b-2n-IZm" firstAttribute="top" secondItem="sFq-AW-a3j" secondAttribute="top" id="Rl6-xa-CKC"/>
+                                    <constraint firstAttribute="width" constant="240" id="W27-ZR-bxP"/>
+                                    <constraint firstItem="9Jg-9C-kPu" firstAttribute="width" secondItem="P0b-2n-IZm" secondAttribute="width" id="X6Z-0m-Bgf"/>
+                                    <constraint firstItem="P0b-2n-IZm" firstAttribute="leading" secondItem="sFq-AW-a3j" secondAttribute="leading" id="Zpi-1K-D9S"/>
+                                    <constraint firstAttribute="trailing" secondItem="9Jg-9C-kPu" secondAttribute="trailing" id="eLF-eo-hj4"/>
+                                    <constraint firstItem="HP6-20-4z2" firstAttribute="height" secondItem="P0b-2n-IZm" secondAttribute="height" id="g4z-Wx-oiG"/>
+                                    <constraint firstItem="HP6-20-4z2" firstAttribute="width" secondItem="P0b-2n-IZm" secondAttribute="width" id="gRs-Ll-jWa"/>
+                                    <constraint firstAttribute="bottom" secondItem="P0b-2n-IZm" secondAttribute="bottom" id="l7F-Di-XHN"/>
+                                    <constraint firstAttribute="height" constant="60" id="sQX-DH-MiP"/>
+                                    <constraint firstItem="HP6-20-4z2" firstAttribute="centerY" secondItem="P0b-2n-IZm" secondAttribute="centerY" id="sgE-Gd-Jjb"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="Rzg-kZ-AIw">
+                                <rect key="frame" x="200" y="200" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Bor-Nu-0YT"/>
+                                    <constraint firstAttribute="width" constant="200" id="oUl-xH-x0u"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o3U-zh-qWv">
+                                <rect key="frame" x="263" y="285" width="75" height="30"/>
+                                <state key="normal" title="New Game"/>
+                                <connections>
+                                    <action selector="startGame:" destination="SNz-xP-RC6" eventType="touchUpInside" id="eay-Sr-0bf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Rzg-kZ-AIw" firstAttribute="centerX" secondItem="DQX-Fb-gqn" secondAttribute="centerX" id="162-bs-bCt"/>
+                            <constraint firstItem="sFq-AW-a3j" firstAttribute="centerX" secondItem="DQX-Fb-gqn" secondAttribute="centerX" id="4Z9-PR-xoT"/>
+                            <constraint firstItem="cMY-cI-dbf" firstAttribute="top" secondItem="AIp-mC-gRP" secondAttribute="bottom" constant="8" id="97l-Pj-yvo"/>
+                            <constraint firstItem="o3U-zh-qWv" firstAttribute="centerX" secondItem="DQX-Fb-gqn" secondAttribute="centerX" id="DHE-tA-tKz"/>
+                            <constraint firstItem="o3U-zh-qWv" firstAttribute="centerY" secondItem="DQX-Fb-gqn" secondAttribute="centerY" id="Pz6-oG-Psr"/>
+                            <constraint firstItem="Rzg-kZ-AIw" firstAttribute="centerY" secondItem="DQX-Fb-gqn" secondAttribute="centerY" id="RrZ-44-wkS"/>
+                            <constraint firstItem="sFq-AW-a3j" firstAttribute="top" secondItem="Rzg-kZ-AIw" secondAttribute="bottom" constant="36" id="dXI-WW-lpc"/>
+                            <constraint firstItem="cMY-cI-dbf" firstAttribute="centerX" secondItem="DQX-Fb-gqn" secondAttribute="centerX" id="kHf-qW-k0E"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageDisplay" destination="Rzg-kZ-AIw" id="GZv-ah-T3Z"/>
+                        <outlet property="newGame" destination="o3U-zh-qWv" id="7Dh-kX-sfl"/>
+                        <outlet property="pointsLabel" destination="cMY-cI-dbf" id="f12-Gc-lxl"/>
+                        <outletCollection property="collectionOfButtons" destination="P0b-2n-IZm" collectionClass="NSMutableArray" id="9NK-Ph-tvj"/>
+                        <outletCollection property="collectionOfButtons" destination="HP6-20-4z2" collectionClass="NSMutableArray" id="6S7-iF-WnN"/>
+                        <outletCollection property="collectionOfButtons" destination="9Jg-9C-kPu" collectionClass="NSMutableArray" id="AsF-oa-Dbq"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wEj-w4-jv8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1549" y="648"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="apple" width="203" height="249"/>
+        <image name="bking" width="225" height="225"/>
+        <image name="firefox" width="225" height="225"/>
+    </resources>
 </document>
